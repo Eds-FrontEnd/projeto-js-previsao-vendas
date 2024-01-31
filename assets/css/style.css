@@ -1,0 +1,19 @@
+:root {
+    --black: #121212;
+    --blueLight: #D3F5F5;
+    --fontSansSerif: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: var(--blueLight);
+    color: var(--black);
+    font-family: var(--fontSansSerif);
+    text-align: center;
+    padding: 15px;
+}
